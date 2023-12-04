@@ -12,5 +12,5 @@ public interface FileService {
      * @param fileName
      * @param multipartFiles
      */
-    void uploadFile(String fileName, MultipartFile[] multipartFiles);
+    String uploadFile(String fileName, MultipartFile[] multipartFiles);
 }
